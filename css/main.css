@@ -21,12 +21,40 @@ h1 {
   color:white;
   text-align:center;
   background-color: #fcce00;
-  margin: <0px> <416px> <5px> <418px>;
-    
+  opacity: 81%;
+  margin: 0px 0px 5px 0px;
 }
 
+
 .section-title {
-  /* Default font, size, and margins */
+  font-size:38px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff6b00;
+  opacity: 81%;
+  margin: 6px 0px 5px 0px;
+}
+
+.bannière-rose{
+  background-color : #e02020;
+  height: 32px;
+  opacity: 81%;
+  margin: 0px 0px 5px 0px
+}
+
+.bannière-violette{
+  background-color :#b620e0;
+  height: 16px;
+  opacity: 81%;
+  margin: 0px 0px 5px 0px
+}
+
+.bannière-bleue{
+  background-color : #6236ff;
+  height: 8px;
+  opacity: 81%;
+  margin: 0px 0px 5px 0px
 }
 
 h3 {
