@@ -6,7 +6,8 @@
 */
 
 body {
-  /* Default font family and font color */
+  font-family: 'Poppins', sans-serif;
+
 }
 
 p, li, textarea, label, input, select {
@@ -16,10 +17,15 @@ p, li, textarea, label, input, select {
 
 
 h1 {
-   /* Default font, size, and margins */
+  font-size:88px;
+  color:white;
+  text-align:center;
+  background-color: #fcce00;
+  margin: <0px> <416px> <5px> <418px>;
+    
 }
 
-h2 {
+.section-title {
   /* Default font, size, and margins */
 }
 
