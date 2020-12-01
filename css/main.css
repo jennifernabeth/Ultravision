@@ -215,17 +215,6 @@ h3 {
       max-width: 300px;
       }
 
-
-
-
-
-h4 {
-  font-size: 24px;
-  color : #231f20;
-  text-align:center;
-  margin: 64px 0px 64px 0px;
-}
-
 .text2{
   font-size:16px;
   color:#231f20;
@@ -244,13 +233,101 @@ h4 {
   margin: 34px 0px 64px 0px
   }
 
-h5 {
+h4{
   font-size: 40px;
   color : #231f20;
   text-align:center;
   font-weight: bold;
   margin: 64px 0px 64px 0px;
+ }
+
+
+
+ .bloc-image-3{
+  background-image: url(../img/bg-red.png);
+  background-position: left bottom;
+  background-size: auto 100% ;
+  margin-top : 70px;
+  margin-right: 430px;
+  margin-left : 430px;
+
+  display : flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+  
+  .bloc-3{
+  display: flex;
+
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.bloc-3-contenu,
+.bloc-image-3{
+  flex-basis: 320px;
+  flex-grow: 1;
+}
+
+.bloc-3-contenu{
+  padding: 0 32px 32px 32px;
+}
+
+.titre{
+  font-size: 24px;
+  font-weight: 700;
+ 
+}
+
+.description{
+  font-size: 16px;
+  text-align: justify;
+  
+}
+
+
+}
+
+.image-3{
+  display : block;
+  max-width: 70%;
+  mix-blend-mode: darken;
+}
+
+
+h3 {
+  font-size: 24px;
+  color : #231f20;
+  text-align:center;
+  font-weight: bold;
+  margin: 64px 0px 64px 0px;
+}
+
+.text3{
+  font-size:16px;
+  color:#231f20;
+  text-align: justify;
+  margin: 34px 0px 64px 0px
+  }
+
+
+.boutonblanc3{
+  font-size: 20px;
+  color:#fcce00;
+  font-weight: bold;
+  text-align: center;
+  border: solid 4px #fcce00;
+  border-radius: 15px;
+  display: block;
+  margin: 34px 0px 100px 300px;
+  max-width: 300px;
+  }
+
+
+
+
+
+
 
 h6 {
   /* Default font, size, and margins */
