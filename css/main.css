@@ -12,6 +12,7 @@ body {
 
 p, li, textarea, label, input, select {
   /* Default font size and line height */
+  font-size: 16px;
 }
 
 h1 {
@@ -96,6 +97,7 @@ h2 {
   background-image: url(../img/bg-yellow.png);
   background-position: left bottom;
   background-size: auto 100% ;
+  margin-top : 70px;
 
   display : flex;
   justify-content: flex-end;
@@ -104,7 +106,8 @@ h2 {
 
 .image-1{
   display : block;
-  max-width: 300%;
+  max-width: 70%;
+  mix-blend-mode: darken;
 }
 
 
@@ -135,6 +138,86 @@ h3 {
   margin: 34px 0px 100px 300px;
   max-width: 300px;
   }
+
+
+
+  .bloc-2{
+    display: flex;
+
+    max-width: 1284px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+  }
+  
+  .bloc-2-contenu,
+  .bloc-image-2{
+    flex-basis: 320px;
+    flex-grow: 1;
+  }
+  
+  .bloc-2-contenu{
+    padding: 0 32px 32px 32px;
+  }
+  
+  .titre{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .description{
+    text-align: justify;
+  }
+  
+  .bloc-image-2{
+    background-image: url(../img/bg-orange.png);
+    background-position: left bottom;
+    background-size: auto 100% ;
+  
+    display : flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    margin-top : 70px;
+  }
+  
+  .image-2{
+    display : block;
+    max-width: 70%;
+    mix-blend-mode: darken;
+    margin-right: 150px;
+  }
+  
+  
+  h3 {
+    font-size: 24px;
+    color : #231f20;
+    text-align:center;
+    font-weight: bold;
+    margin: 64px 0px 64px 0px;
+  }
+  
+  .text2{
+    font-size:16px;
+    color:#231f20;
+    text-align: justify;
+    margin: 34px 0px 64px 0px
+    }
+  
+ .boutonblanc2{
+      font-size: 20px;
+      color:#ff6b00;
+      font-weight: bold;
+      text-align: center;
+      border: solid 4px #ff6b00;
+      border-radius: 15px;
+      display: block;
+      margin: 34px 0px 100px 300px;
+      max-width: 300px;
+      }
+
+
+
+
 
 h4 {
   font-size: 24px;
