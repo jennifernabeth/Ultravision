@@ -83,9 +83,10 @@ h2 {
   padding: 0 32px 32px 32px;
 }
 
-.titre{
+.titre1{
   font-size: 24px;
   font-weight: 700;
+  color: #231f20; 
 }
 
 .description{
@@ -135,8 +136,8 @@ h3 {
   border: solid 4px #fcce00;
   border-radius: 15px;
   display: block;
-  margin: 34px 0px 100px 300px;
-  max-width: 300px;
+  margin: 34px 100px 100px 300px;
+  max-width: 400px;
   }
 
 
@@ -160,7 +161,7 @@ h3 {
     padding: 0 32px 32px 32px;
   }
   
-  .titre{
+  .titre1{
     font-size: 24px;
     font-weight: 700;
   }
@@ -203,17 +204,17 @@ h3 {
     margin: 34px 0px 64px 0px
     }
   
- .boutonblanc2{
-      font-size: 20px;
-      color:#ff6b00;
-      font-weight: bold;
-      text-align: center;
-      border: solid 4px #ff6b00;
-      border-radius: 15px;
-      display: block;
-      margin: 34px 0px 100px 300px;
-      max-width: 300px;
-      }
+.boutonblanc2{
+  font-size: 20px;
+  color:#ff6b00;
+  font-weight: bold;
+  text-align: center;
+  border: solid 40px #ff6b00;
+  border-radius: 15px;
+  display: block;
+  margin: 34px 100px 100px 300px;
+  max-width: 300px;
+  }
 
 .text2{
   font-size:16px;
@@ -230,7 +231,7 @@ h3 {
   border: solid 4px #ff6b00;
   border-radius: 15px;
   display: block;
-  margin: 34px 0px 64px 0px
+  margin: 34px 250px 64px 0px
   }
 
 h4{
@@ -243,19 +244,22 @@ h4{
 
 
 
+
+
  .bloc-image-3{
-  background-image: url(../img/bg-red.png);
-  background-position: left bottom;
-  background-size: auto 100% ;
   margin-top : 70px;
-  margin-right: 430px;
-  margin-left : 430px;
+  margin-right: 30px;
+  margin-left : 30px;
 
   display : flex;
   justify-content: flex-end;
   align-items:flex-end;
+ }
   
-  .bloc-3{
+.bloc-3{
+  background-image: url(../img/bg-red.png);
+  background-position: left bottom;
+  background-size: auto 100% ;
   display: flex;
 
   max-width: 1284px;
@@ -273,31 +277,31 @@ h4{
   padding: 0 32px 32px 32px;
 }
 
-.titre{
-  font-size: 24px;
-  font-weight: 700;
- 
+.titre2{
+  font-size: 32px;
+  font-weight: 700; 
+  color:#ffffff; 
 }
 
-.description{
-  font-size: 16px;
+.description3{
+  font-size: 24px;
   text-align: justify;
+  color:#ffffff; 
   
 }
 
 
-}
-
 .image-3{
   display : block;
-  max-width: 70%;
+  max-width: 100%;
   mix-blend-mode: darken;
+
 }
 
 
 h3 {
   font-size: 24px;
-  color : #231f20;
+  color:#ffffff; 
   text-align:center;
   font-weight: bold;
   margin: 64px 0px 64px 0px;
@@ -305,7 +309,7 @@ h3 {
 
 .text3{
   font-size:16px;
-  color:#231f20;
+  color:#ffffff; 
   text-align: justify;
   margin: 34px 0px 64px 0px
   }
@@ -313,13 +317,181 @@ h3 {
 
 .boutonblanc3{
   font-size: 20px;
-  color:#fcce00;
+  color:#ffffff; 
   font-weight: bold;
   text-align: center;
-  border: solid 4px #fcce00;
+  border: solid 4px #ffffff; 
   border-radius: 15px;
   display: block;
-  margin: 34px 0px 100px 300px;
+  margin: 34px 250px 100px 100px;
+  max-width: 300px;
+  }
+
+
+  
+
+.bloc-image-4{
+  margin-top : 70px;
+  margin-right: 30px;
+  margin-left : 30px;
+
+  display : flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+ }
+  
+.bloc-4{
+  background-image: url(../img/bg-violet.png);
+  background-position: left bottom;
+  background-size: auto 100% ;
+  display: flex;
+
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc-4-contenu,
+.bloc-image-4{
+  flex-basis: 320px;
+  flex-grow: 1;
+}
+
+.bloc-4-contenu{
+  padding: 0 32px 32px 32px;
+}
+
+.titre2{
+  font-size: 32px;
+  font-weight: 700; 
+  color:#ffffff; 
+}
+
+.description4{
+  font-size: 24px;
+  text-align: justify;
+  color:#ffffff; 
+  
+}
+
+
+.image-4{
+  display : block;
+  max-width: 100%;
+  mix-blend-mode: darken;
+
+}
+
+
+h3 {
+  font-size: 24px;
+  color:#ffffff; 
+  text-align:center;
+  font-weight: bold;
+  margin: 64px 0px 64px 0px;
+}
+
+.text4{
+  font-size:16px;
+  color:#ffffff; 
+  text-align: justify;
+  margin: 34px 0px 64px 0px
+  }
+
+
+.boutonblanc4{
+  font-size: 20px;
+  color:#ffffff; 
+  font-weight: bold;
+  text-align: center;
+  border: solid 4px #ffffff; 
+  border-radius: 15px;
+  display: block;
+  margin: 34px 250px 100px 100px;
+  max-width: 300px;
+  }
+
+
+  
+
+.bloc-image-5{
+  margin-top : 70px;
+  margin-right: 30px;
+  margin-left : 30px;
+
+  display : flex;
+  justify-content: flex-end;
+  align-items:flex-end;
+ }
+  
+.bloc-5{
+  background-image: url(../img/bg-blue.png);
+  background-position: left bottom;
+  background-size: auto 100% ;
+  display: flex;
+
+  max-width: 1284px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bloc-5-contenu,
+.bloc-image-5{
+  flex-basis: 320px;
+  flex-grow: 1;
+}
+
+.bloc-5-contenu{
+  padding: 0 32px 32px 32px;
+}
+
+.titre2{
+  font-size: 32px;
+  font-weight: 700; 
+  color:#ffffff; 
+}
+
+.description5{
+  font-size: 24px;
+  text-align: justify;
+  color:#ffffff; 
+  
+}
+
+
+.image-5{
+  display : block;
+  max-width: 100%;
+  mix-blend-mode: darken;
+
+}
+
+
+h3 {
+  font-size: 24px;
+  color:#ffffff; 
+  text-align:center;
+  font-weight: bold;
+  margin: 64px 0px 64px 0px;
+}
+
+.text5{
+  font-size:16px;
+  color:#ffffff; 
+  text-align: justify;
+  margin: 34px 0px 64px 0px
+  }
+
+
+.boutonblanc5{
+  font-size: 20px;
+  color:#ffffff; 
+  font-weight: bold;
+  text-align: center;
+  border: solid 4px #ffffff; 
+  border-radius: 15px;
+  display: block;
+  margin: 34px 250px 100px 100px;
   max-width: 300px;
   }
 
@@ -327,16 +499,6 @@ h3 {
 
 
 
-
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
 
 a:hover {
   /* Link color on mouse over */
