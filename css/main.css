@@ -495,27 +495,26 @@ h3 {
   }
 
 
-
-
-h5 {
+h6 {
   font-size: 40px;
   color:#ffffff; 
   text-align:center;
   font-weight: bold;
-  margin: 64px 0px 64px 0px;
+  margin: 10px 0px 64px 0px;
 }
 
+.test {
+  margin: 0px 0px 64px 0px;
+}
 
 .game{
   position: relative;
-  max-width: 320px;
-  margin: auto;
   color: white;
-  margin-bottom: 32px;
 }
 
 .game-cover {
   display : block;
+  width: 100%;
 }
 
 .game-content {
@@ -574,9 +573,16 @@ h5 {
   padding: 100px 32px; 
 }
 
+@media screen and (max-width:780px) {
+  .game-list {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .bloc-7 {
   background-color: #231f20;
 }
+
 
 
 
