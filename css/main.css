@@ -246,7 +246,7 @@ h4{
 
 
  .bloc-image-3{
-  margin-top : 70px;
+  margin-top : 20px;
   margin-right: 30px;
   margin-left : 30px;
 
@@ -330,7 +330,7 @@ h3 {
   
 
 .bloc-image-4{
-  margin-top : 70px;
+  margin-top : 20px;
   margin-right: 30px;
   margin-left : 30px;
 
@@ -414,13 +414,13 @@ h3 {
   
 
 .bloc-image-5{
-  margin-top : 70px;
+  margin-top : 20px;
   margin-right: 30px;
   margin-left : 30px;
 
   display : flex;
   justify-content: flex-end;
-  align-items:flex-end;
+  align-items: flex-end;
  }
   
 .bloc-5{
