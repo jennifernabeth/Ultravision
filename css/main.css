@@ -497,6 +497,13 @@ h3 {
 
 
 
+h5 {
+  font-size: 40px;
+  color:#ffffff; 
+  text-align:center;
+  font-weight: bold;
+  margin: 64px 0px 64px 0px;
+}
 
 
 .game{
@@ -518,7 +525,7 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color :#231f20;
+  background-color :rgba(0,0,0,0.81);
   border-radius: 15px;
   font-size: 16px;
   text-align: center;
@@ -552,7 +559,7 @@ h3 {
 }
 
 .game-content > * {
- transform: translate(Y)(30px)
+ transform: translateY(30px);
  transition:transform 200ms
 }
 
@@ -560,10 +567,16 @@ h3 {
   transform: translateY(O);
 }
 
-* Layout
-* ------
-*/
+.game-list{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 32px;
+  padding: 100px 32px; 
+}
 
+.bloc-7 {
+  background-color: #231f20;
+}
 
 
 
