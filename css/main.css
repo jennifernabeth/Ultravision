@@ -499,13 +499,67 @@ h3 {
 
 
 
-a:hover {
-  /* Link color on mouse over */
+.game{
+  position: relative;
+  max-width: 320px;
+  margin: auto;
+  color: white;
+  margin-bottom: 32px;
 }
 
+.game-cover {
+  display : block;
+}
 
-/**
-* ------
+.game-content {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color :#231f20;
+  border-radius: 15px;
+  font-size: 16px;
+  text-align: center;
+  padding: 16px;
+}
+
+.game-categorie {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.game-title{
+  color: #fcce00;
+  font-size:32px;
+  margin-top: 0;
+}
+
+.game-description{
+  margin:0;
+}
+
+.game-content {
+  opacity : 0;
+  transition: opacity 200ms;
+}
+
+.game:hover .game-content {
+  opacity: 1;
+    transform: translateY(O);
+}
+
+.game-content > * {
+ transform: translate(Y)(30px)
+ transition:transform 200ms
+}
+
+.game:hover .game-content > * {
+  transform: translateY(O);
+}
+
 * Layout
 * ------
 */
