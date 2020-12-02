@@ -503,10 +503,6 @@ h6 {
   margin: 10px 0px 64px 0px;
 }
 
-.test {
-  margin: 0px 0px 64px 0px;
-}
-
 .game{
   position: relative;
   color: white;
@@ -581,6 +577,7 @@ h6 {
 
 .bloc-7 {
   background-color: #231f20;
+  padding-top: 120px;
 }
 
 
